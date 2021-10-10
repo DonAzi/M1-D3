@@ -77,21 +77,28 @@ console.log(ifNamesMatches)
 let ifNamesLowercase = (name1.toLowerCase === name2.toLowerCase) ? true : false;
 console.log(ifNamesLowercase)
 
+
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
 /* WRITE YOUR ANSWER HERE */
-let isThisNine = 9
-// for (i=0; i <= isThisNine; i++);
 
-  if (  isThisNine === true) {
+let Xx = 2 
 
-    console.log("Nine")
-  }
-  
-   
+switch (Xx) {
+  case 1 : console.log("One"); break ;
+  case 2 : console.log("Two"); break ; 
+  case 3 : console.log("Three"); break ;
+  case 4 : console.log("Four"); break ;
+  case 5 : console.log("Five"); break ;
+  case 6 : console.log("Six"); break ;
+  case 7 : console.log("Seven"); break ;
+  case 8 : console.log("Eight"); break ;
+  case 9 : console.log("Nine"); break ;
+  default: console.log("Not a Number")
+}
 
 
 
@@ -102,6 +109,9 @@ let isThisNine = 9
 
 /* WRITE YOUR ANSWER HERE */
 
+ let unKnownVar = x > 10 ? true:false
+
+ console.log(unKnownVar)
 
 
 /* WHEN YOU ARE FINISHED
@@ -118,9 +128,10 @@ let isThisNine = 9
  The choice should be made based on the value of another variable called isMale.
 */
 
-// let isMale = false;
-// let gender = isMale ? "male" : "female";
+let isMale = false;
+let gender = isMale ? "male" : "female";
 
+console.log(gender)
 /* EXTRA 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
@@ -137,7 +148,9 @@ let isThisNine = 9
  Create a variable and assign to it the concatenation of two strings.
 */
 
-// let str = "Strive " + "School";
+let str = "Doston" + " is a new Striver";
+ console.log(str)
+
 
 /* EXTRA 4
  Create three variables and assign a numerical value to each one of them. 
@@ -145,9 +158,9 @@ let isThisNine = 9
  Display the result in the console.
 */
 
-// let X = 3;
-// let y = 6;
-// let z = -1;
+let X = 3;
+let y = 6;
+let z = -1;
 
 // if (X > y && X > z) {
 //   if (y > z) {
